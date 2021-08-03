@@ -1,0 +1,85 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ a, button {
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+    padding: 0.1rem 1rem 0.1rem 1rem ;
+ }
+
+ a:hover {
+     color: white;
+     outline: 1px solid white;
+ }
+
+ button:hover {
+     color: white;
+     background-color: darksalmon;
+ }
+
+ input {
+     background-color: none;
+     outline: none;
+ }
+
+ body {
+     min-width: 100%;
+     background-color: darksalmon;
+     color: black;
+     font-family: 'antonio';
+ }
+
+ header {
+     display: flex;
+     width: 100%;
+     min-height: 15rem;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     text-transform: uppercase;
+ }
+
+ header nav ul {
+     display: flex;
+ }
+
+ header li {
+     padding: 1rem 2rem;
+     list-style: none;
+ }
+
+ #main-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+ }
+
+ .mood-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+
+ }
+ 
+
+ button {
+    font-family: 'antonio';
+    text-transform: uppercase;
+    background-color: darksalmon;
+    border: 1px solid white;
+    border-radius: 0;
+ }
+
+ .weatherDis {
+     margin-top: 1rem;
+     flex-direction: row;
+ }
+
+ .tell_us {
+     margin-bottom: 2rem;
+ }
